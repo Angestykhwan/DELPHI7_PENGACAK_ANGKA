@@ -1,0 +1,237 @@
+object Form1: TForm1
+  Left = 212
+  Top = 163
+  Width = 697
+  Height = 552
+  Caption = 'APLIKASI PENGACAK ANGKA'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 681
+    Height = 513
+    ActivePage = TabSheet1
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Acak Angka Yuk'
+      object Label1: TLabel
+        Left = 32
+        Top = 0
+        Width = 600
+        Height = 37
+        Caption = 'MARI BERMAIN DENGAN ANGKA'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -29
+        Font.Name = 'Lucida Calligraphy'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 16
+        Top = 64
+        Width = 77
+        Height = 16
+        Caption = 'Angka Awal'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label3: TLabel
+        Left = 16
+        Top = 96
+        Width = 82
+        Height = 16
+        Caption = 'Angka Akhir'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label4: TLabel
+        Left = 8
+        Top = 128
+        Width = 152
+        Height = 16
+        Caption = 'Banyaknya Angka yang'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label5: TLabel
+        Left = 24
+        Top = 144
+        Width = 109
+        Height = 16
+        Caption = 'ingin ditampilkan'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label6: TLabel
+        Left = 24
+        Top = 216
+        Width = 141
+        Height = 16
+        Caption = 'Angka yang Terpilih :'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 232
+        Top = 32
+        Width = 180
+        Height = 16
+        Caption = 'Dengan Metode Quicksort'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label8: TLabel
+        Left = 336
+        Top = 80
+        Width = 168
+        Height = 16
+        Caption = 'Angka yang telah Terpilih'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Left = 352
+        Top = 104
+        Width = 107
+        Height = 16
+        Caption = 'Urutkan Dengan'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label10: TLabel
+        Left = 328
+        Top = 128
+        Width = 229
+        Height = 16
+        Caption = 'Metode Quicksort ya Teman-Teman'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label11: TLabel
+        Left = 304
+        Top = 216
+        Width = 159
+        Height = 16
+        Caption = 'Angka yang Telah Urut :'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Edit1: TEdit
+        Left = 112
+        Top = 64
+        Width = 121
+        Height = 21
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 112
+        Top = 96
+        Width = 121
+        Height = 21
+        TabOrder = 1
+      end
+      object Edit3: TEdit
+        Left = 176
+        Top = 136
+        Width = 57
+        Height = 21
+        TabOrder = 2
+      end
+      object Button1: TButton
+        Left = 24
+        Top = 168
+        Width = 209
+        Height = 25
+        Caption = 'Tampilkan Angka Yuk'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 3
+        OnClick = Button1Click
+      end
+      object ListBox1: TListBox
+        Left = 24
+        Top = 240
+        Width = 209
+        Height = 217
+        ItemHeight = 13
+        TabOrder = 4
+      end
+      object ListBox2: TListBox
+        Left = 304
+        Top = 240
+        Width = 225
+        Height = 217
+        ItemHeight = 13
+        TabOrder = 5
+      end
+      object Button2: TButton
+        Left = 304
+        Top = 168
+        Width = 225
+        Height = 25
+        Caption = 'Kita Sorting Yaaa'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'MS Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 6
+        OnClick = Button2Click
+      end
+    end
+  end
+end
